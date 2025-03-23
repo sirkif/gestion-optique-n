@@ -10,7 +10,6 @@ interface MainLayoutProps {
 
 export function MainLayout({ children, activeKey, onSelect }: MainLayoutProps) {
   const navigate = useNavigate()
-  console.log(activeKey)
 
   const handleLogout = () => {
     console.log('Logging out...')

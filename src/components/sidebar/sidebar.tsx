@@ -29,8 +29,6 @@ interface SidebarProps {
 }
 
 export function Sidebar({ activeKey, onSelect, onLogout }: SidebarProps) {
-  console.log(activeKey)
-
   return (
     <div className="w-64 h-screen bg-content1 border-r border-divider p-4 flex flex-col">
       <div className="flex items-center gap-2 p-2 mb-4">
